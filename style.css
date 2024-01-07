@@ -5,23 +5,23 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.aaa {
+.introduction {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.introduction img {
   width: 100%;
 }
 
-.aaa .more-inf {
+.introduction .more-details {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa {
+  .introduction {
     text-align: center;
   }
 }
@@ -140,13 +140,13 @@ li>input[type="text"] {
   width: 226px
 }
 
-button.delete img {
+button.button-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+button.button-delete img:hover {
   transform: rotateZ(0);
 }
 
