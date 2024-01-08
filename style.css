@@ -117,7 +117,7 @@ label[for="new-task"] {
 }
 
 .row-task * {
-vertical-align: middle;
+  vertical-align: middle;
 }
 
 .row-task input[type="checkbox"] {
@@ -158,5 +158,5 @@ vertical-align: middle;
 }
 
 .edit-mode label {
-display: none;
+  display: none;
 }
