@@ -18,6 +18,7 @@ var completedTasksHolder = document.getElementById("done");//done
 var createNewTaskElement = function (taskString) {
 
   var listItem = document.createElement("li");
+  listItem.className = 'row-task';
 
   //input (checkbox)
   var checkBox = document.createElement("input");//checkbx
@@ -156,8 +157,8 @@ var bindTaskEvents = function (taskListItem, checkBoxEventHandler) {
   console.log("bind list item events");
   //select ListItems children
   var checkBox = taskListItem.querySelector("input[type=checkbox]");
-  var editButton = taskListItem.querySelector("button.btn-edit");
-  var deleteButton = taskListItem.querySelector("button.btn-delete");
+  var editButton = taskListItem.querySelector(".btn-edit");
+  var deleteButton = taskListItem.querySelector(".btn-delete");
 
 
   //Bind editTask to edit button.
